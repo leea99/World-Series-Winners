@@ -43,7 +43,7 @@ public class WorldSeriesWinners
    public static String userInput()                           
    {
      Scanner keyboard = new Scanner(System.in);
-     System.out.println("Enter a Team (ex: St. Louis Cardinals");
+     System.out.println("Enter a Team (ex: St. Louis Cardinals)");
      String teamEntered = keyboard.nextLine();
      keyboard.close();
      
